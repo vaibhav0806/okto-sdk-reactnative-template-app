@@ -6789,10 +6789,10 @@ obuf@^1.0.0, obuf@^1.1.2:
   resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
   integrity sha512-PX1wu0AmAdPqOL1mWhqmlOd8kOIZQwGZw6rh7uby9fTc5lhaOWFLX3I6R1hrF9k3zUY40e6igsLGkDXK92LJNg==
 
-okto-sdk-react-native@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/okto-sdk-react-native/-/okto-sdk-react-native-0.2.0.tgz#06442919f812f3ea10c2f9b2d5de1aac543fe322"
-  integrity sha512-0hR5Ml8uxcHOLor7F9pO+937M7/Akw53OsGylp6umN/urIctUIwBzuPv9iBEGE+2tYqXLi3zST0Aat/h+ufKOw==
+okto-sdk-react-native@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/okto-sdk-react-native/-/okto-sdk-react-native-0.3.0.tgz#c210a1da6061ec4941ff4378a62ad9be07b80893"
+  integrity sha512-dWtAivEpt4pX2M2zpygbN6lQsAyluPcNsHKpmJYkbk3Fx8U2nBvHrq/gwHRC3bw3/5i+eD0txTuQB8PdQdwc5Q==
 
 on-finished@2.4.1:
   version "2.4.1"
