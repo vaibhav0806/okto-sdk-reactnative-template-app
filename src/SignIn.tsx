@@ -3,11 +3,11 @@ import {
   GoogleSignin,
   type ConfigureParams,
 } from '@react-native-google-signin/google-signin';
-// import { GOOGLE_WEB_CLIENT_ID, GOOGLE_ANDROID_CLIENT_ID } from '@env';
+import { GOOGLE_WEB_CLIENT_ID } from '@env';
 import React, { useEffect } from 'react';
 
 GoogleSignin.configure({
-  webClientId: "260804459324-86psubeu8744aga7qkouh1b2fnq7p47e.apps.googleusercontent.com",
+  webClientId: GOOGLE_WEB_CLIENT_ID,
   scopes: ['profile', 'email'],
 } as ConfigureParams);
 
