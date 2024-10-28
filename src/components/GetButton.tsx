@@ -53,23 +53,25 @@ function GetButton({ title, apiFn }: GetButtonProps) {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  buttonGroup: {
-    width: '100%',
-    paddingVertical: 5,
-  },
-  modalView: {
-    marginTop: 22,
-    padding: 20,
-    backgroundColor: 'white',
-  },
-  modalText: {
-    marginBottom: 15,
-    textAlign: 'left',
-  },
-});
+    container: {
+      width: '100%',
+    },
+    buttonGroup: {
+      width: '100%',
+      marginVertical: 5,
+    },
+    modalView: {
+      flex: 1,
+      marginTop: 22,
+      padding: 20,
+      backgroundColor: 'white',
+    },
+    modalText: {
+      marginBottom: 15,
+      textAlign: 'left',
+      fontSize: 14,
+      fontFamily: 'monospace',
+    },
+  });
 
 export default GetButton;
